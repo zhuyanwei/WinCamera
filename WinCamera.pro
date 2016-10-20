@@ -16,7 +16,7 @@ SOURCES += main.cpp\
     convert.cpp \
     encode.cpp \
     widget.cpp\
-D:\Qt\MINGW\share\gettext\intl\localcharset.c \
+D:\MinGW\share\gettext\intl\localcharset.c \
     src/jmutex.cpp \
     src/jthread.cpp \
     src/rtcpapppacket.cpp \
@@ -153,8 +153,8 @@ D:\FFMPEG+\lib\libswscale.a \
 D:\FFMPEG+\lib\libswresample.a \
 D:\FFMPEG+\x264\lib\libx264.a \
 D:\FFMPEG+\faac\lib\libfaac.a \
-D:\Qt\Qt5.4.1\Tools\mingw491_32\i686-w64-mingw32\lib\libz.a \
+D:\Qt\Qt5.7.0\Tools\mingw530_32\i686-w64-mingw32\lib\libz.a \
 
-LIBS+= -LD:\portaudio\lib\Win32\ReleaseMinDependency -lportaudio_x86
+LIBS+= -LD:\portaudio\build\msvc\Win32\ReleaseMinDependency -lportaudio_x86
 
 LIBS += -lWs2_32
